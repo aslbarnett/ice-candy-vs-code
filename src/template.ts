@@ -117,7 +117,7 @@ export const uiTemplate = ({ name, baseVariant, variant }: Theme) => {
 			'editorError.foreground': colorPalette.red,
 			'editorWarning.foreground': colorPalette.orange,
 			'editorInfo.foreground': colorPalette.blue,
-			'editorHint.foreground': colorPalette.aquamarine,
+			'editorHint.foreground': colorPalette.cyan,
 
 			// Editor Gutter
 			'editorGutter.background': primaryBackgroundColor,
@@ -328,14 +328,14 @@ export const uiTemplate = ({ name, baseVariant, variant }: Theme) => {
 			'terminal.ansiBlack': basePalette.selectionDark,
 			'terminal.ansiBlue': colorPalette.blue,
 			'terminal.ansiBrightBlue': lightColorPalette.blue,
-			'terminal.ansiBrightCyan': lightColorPalette.aquamarine,
+			'terminal.ansiBrightCyan': lightColorPalette.cyan,
 			'terminal.ansiBrightGreen': lightColorPalette.peridot,
 			'terminal.ansiBrightBlack': basePalette.selection,
 			'terminal.ansiBrightMagenta': lightColorPalette.purple,
 			'terminal.ansiBrightRed': lightColorPalette.red,
 			'terminal.ansiBrightWhite': basePalette.foreground,
 			'terminal.ansiBrightYellow': lightColorPalette.yellow,
-			'terminal.ansiCyan': colorPalette.aquamarine,
+			'terminal.ansiCyan': colorPalette.cyan,
 			'terminal.ansiGreen': colorPalette.peridot,
 			'terminal.ansiMagenta': colorPalette.purple,
 			'terminal.ansiRed': colorPalette.red,
@@ -418,7 +418,7 @@ export const uiTemplate = ({ name, baseVariant, variant }: Theme) => {
 					'punctuation.section.tag.twig',
 				],
 				settings: {
-					foreground: colorPalette.yellow,
+					foreground: colorPalette.pink,
 				},
 			},
 			{
@@ -446,14 +446,14 @@ export const uiTemplate = ({ name, baseVariant, variant }: Theme) => {
 				name: 'Keyword',
 				scope: ['keyword'],
 				settings: {
-					foreground: colorPalette.yellow,
+					foreground: colorPalette.pink,
 				},
 			},
 			{
 				name: 'Constant, Number',
 				scope: ['constant.language.boolean', 'constant.numeric'],
 				settings: {
-					foreground: colorPalette.orange,
+					foreground: colorPalette.yellow,
 				},
 			},
 			{
@@ -498,7 +498,7 @@ export const uiTemplate = ({ name, baseVariant, variant }: Theme) => {
 					'string.unquoted.filter-pipe',
 				],
 				settings: {
-					foreground: colorPalette.aquamarine,
+					foreground: colorPalette.yellow,
 				},
 			},
 			{
@@ -530,7 +530,7 @@ export const uiTemplate = ({ name, baseVariant, variant }: Theme) => {
 					'keyword.control.filter',
 				],
 				settings: {
-					foreground: colorPalette.yellow,
+					foreground: colorPalette.pink,
 				},
 			},
 			{
@@ -634,7 +634,7 @@ export const uiTemplate = ({ name, baseVariant, variant }: Theme) => {
 				name: 'Scala',
 				scope: 'variable.parameter.scala',
 				settings: {
-					foreground: colorPalette.aquamarine,
+					foreground: colorPalette.orange,
 				},
 			},
 			{
@@ -671,21 +671,21 @@ export const uiTemplate = ({ name, baseVariant, variant }: Theme) => {
 				name: 'Attributes',
 				scope: ['entity.other.attribute-name'],
 				settings: {
-					foreground: colorPalette.aquamarine,
+					foreground: colorPalette.orange,
 				},
 			},
 			{
 				name: 'HTML Attributes',
 				scope: ['text.html.basic entity.other.attribute-name.html', 'text.html.basic entity.other.attribute-name'],
 				settings: {
-					foreground: colorPalette.aquamarine,
+					foreground: colorPalette.orange,
 				},
 			},
 			{
 				name: 'CSS Classes',
 				scope: ['entity.other.attribute-name.class', 'punctuation.definition.entity.css'],
 				settings: {
-					foreground: colorPalette.aquamarine,
+					foreground: colorPalette.orange,
 				},
 			},
 			{
@@ -713,14 +713,14 @@ export const uiTemplate = ({ name, baseVariant, variant }: Theme) => {
 				name: 'Changed',
 				scope: ['markup.changed'],
 				settings: {
-					foreground: colorPalette.yellow,
+					foreground: colorPalette.pink,
 				},
 			},
 			{
 				name: 'Regular Expressions',
 				scope: ['string.regexp'],
 				settings: {
-					foreground: colorPalette.aquamarine,
+					foreground: colorPalette.orange,
 				},
 			},
 			{
@@ -774,7 +774,7 @@ export const uiTemplate = ({ name, baseVariant, variant }: Theme) => {
 					'source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json',
 				],
 				settings: {
-					foreground: colorPalette.aquamarine,
+					foreground: colorPalette.orange,
 				},
 			},
 			{
@@ -792,7 +792,7 @@ export const uiTemplate = ({ name, baseVariant, variant }: Theme) => {
 					'source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json',
 				],
 				settings: {
-					foreground: colorPalette.aquamarine,
+					foreground: colorPalette.orange,
 				},
 			},
 			{
@@ -810,7 +810,7 @@ export const uiTemplate = ({ name, baseVariant, variant }: Theme) => {
 					'source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json',
 				],
 				settings: {
-					foreground: colorPalette.aquamarine,
+					foreground: colorPalette.orange,
 				},
 			},
 			{
@@ -828,7 +828,7 @@ export const uiTemplate = ({ name, baseVariant, variant }: Theme) => {
 					'source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json',
 				],
 				settings: {
-					foreground: colorPalette.aquamarine,
+					foreground: colorPalette.orange,
 				},
 			},
 			{
@@ -852,7 +852,7 @@ export const uiTemplate = ({ name, baseVariant, variant }: Theme) => {
 				scope: ['markup.underline'],
 				settings: {
 					fontStyle: 'underline',
-					foreground: colorPalette.yellow,
+					foreground: colorPalette.pink,
 				},
 			},
 			{
@@ -860,7 +860,7 @@ export const uiTemplate = ({ name, baseVariant, variant }: Theme) => {
 				scope: ['markup.strike'],
 				settings: {
 					fontStyle: 'italic',
-					foreground: colorPalette.orange,
+					foreground: colorPalette.yellow,
 				},
 			},
 			{
@@ -875,7 +875,7 @@ export const uiTemplate = ({ name, baseVariant, variant }: Theme) => {
 				name: 'Markup - Raw Block',
 				scope: ['markup.raw.block'],
 				settings: {
-					foreground: colorPalette.aquamarine,
+					foreground: colorPalette.orange,
 				},
 			},
 			{
@@ -932,7 +932,7 @@ export const uiTemplate = ({ name, baseVariant, variant }: Theme) => {
 				scope: ['string.other.link.title.markdown'],
 				settings: {
 					fontStyle: 'underline',
-					foreground: colorPalette.orange,
+					foreground: colorPalette.yellow,
 				},
 			},
 			{
@@ -986,7 +986,7 @@ export const uiTemplate = ({ name, baseVariant, variant }: Theme) => {
 			{
 				scope: 'token.debug-token',
 				settings: {
-					foreground: colorPalette.yellow,
+					foreground: colorPalette.pink,
 				},
 			},
 			{
@@ -998,7 +998,7 @@ export const uiTemplate = ({ name, baseVariant, variant }: Theme) => {
 			{
 				scope: 'punctuation.other.period.go',
 				settings: {
-					foreground: colorPalette.aquamarine,
+					foreground: colorPalette.orange,
 				},
 			},
 		],
