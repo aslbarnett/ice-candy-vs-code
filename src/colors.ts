@@ -2,12 +2,12 @@ export const defaultTheme = {
 	editor: {
 		backgroundDark: '#171F28',
 		background: '#1D2733',
-		foreground: '#9CA2C9',
+		foreground: '#EFEFF6',
 		selectionDark: '#2D3F53',
 		selection: '#435D7A',
 		textDark: '#435D7A',
 		textMid: '#708BA9',
-		text: '#9CA2C9',
+		text: '#EFEFF6', // '#9CA2C9'
 		shadow: '#00030F',
 	},
 	syntax: {
