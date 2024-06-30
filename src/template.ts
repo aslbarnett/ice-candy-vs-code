@@ -571,7 +571,6 @@ export const uiTemplate = ({ name, baseVariant, variant }: Theme) => {
 					'storage.type.attr.nunjucks',
 				],
 				settings: {
-					// foreground: colorPalette.pink,
 					foreground: colorPalette.peridot,
 				},
 			},
@@ -635,7 +634,6 @@ export const uiTemplate = ({ name, baseVariant, variant }: Theme) => {
 				name: 'Scala',
 				scope: 'variable.parameter.scala',
 				settings: {
-					// forground: colorPalette.peridot,
 					foreground: colorPalette.pink,
 				},
 			},
@@ -673,7 +671,6 @@ export const uiTemplate = ({ name, baseVariant, variant }: Theme) => {
 				name: 'Attributes',
 				scope: ['entity.other.attribute-name'],
 				settings: {
-					// foreground: colorPalette.peridot,
 					foreground: colorPalette.pink,
 				},
 			},
@@ -681,7 +678,6 @@ export const uiTemplate = ({ name, baseVariant, variant }: Theme) => {
 				name: 'HTML Attributes',
 				scope: ['text.html.basic entity.other.attribute-name.html', 'text.html.basic entity.other.attribute-name'],
 				settings: {
-					// foreground: colorPalette.peridot,
 					foreground: colorPalette.pink,
 				},
 			},
@@ -689,7 +685,6 @@ export const uiTemplate = ({ name, baseVariant, variant }: Theme) => {
 				name: 'CSS Classes',
 				scope: ['entity.other.attribute-name.class', 'punctuation.definition.entity.css'],
 				settings: {
-					// forergound: colorPalette.peridot,
 					foreground: colorPalette.pink,
 				},
 			},
@@ -725,7 +720,6 @@ export const uiTemplate = ({ name, baseVariant, variant }: Theme) => {
 				name: 'Regular Expressions',
 				scope: ['string.regexp'],
 				settings: {
-					// foreground: colorPalette.peridot,
 					foreground: colorPalette.pink,
 				},
 			},
@@ -780,7 +774,6 @@ export const uiTemplate = ({ name, baseVariant, variant }: Theme) => {
 					'source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json',
 				],
 				settings: {
-					// foreground: colorPalette.peridot,
 					foreground: colorPalette.pink,
 				},
 			},
@@ -799,7 +792,6 @@ export const uiTemplate = ({ name, baseVariant, variant }: Theme) => {
 					'source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json',
 				],
 				settings: {
-					// foreground: colorPalette.peridot,
 					foreground: colorPalette.pink,
 				},
 			},
@@ -818,7 +810,6 @@ export const uiTemplate = ({ name, baseVariant, variant }: Theme) => {
 					'source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json',
 				],
 				settings: {
-					// forergound: colorPalette.peridot,
 					foreground: colorPalette.pink,
 				},
 			},
@@ -837,7 +828,6 @@ export const uiTemplate = ({ name, baseVariant, variant }: Theme) => {
 					'source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json',
 				],
 				settings: {
-					// foreground: colorPalette.peridot,
 					foreground: colorPalette.pink,
 				},
 			},
@@ -885,7 +875,6 @@ export const uiTemplate = ({ name, baseVariant, variant }: Theme) => {
 				name: 'Markup - Raw Block',
 				scope: ['markup.raw.block'],
 				settings: {
-					// foreground: colorPalette.peridot,
 					foreground: colorPalette.pink,
 				},
 			},
@@ -927,7 +916,6 @@ export const uiTemplate = ({ name, baseVariant, variant }: Theme) => {
 					'punctuation.definition.heading.markdown',
 				],
 				settings: {
-					// foreground: colorPalette.pink,
 					foreground: colorPalette.peridot,
 				},
 			},
@@ -1010,7 +998,6 @@ export const uiTemplate = ({ name, baseVariant, variant }: Theme) => {
 			{
 				scope: 'punctuation.other.period.go',
 				settings: {
-					// foreground: colorPalette.peridot,
 					foreground: colorPalette.pink,
 				},
 			},
